@@ -1,0 +1,298 @@
+body{
+  font-family: 'Montserrat', sans-serif;  
+  margin: 20px 0px;
+  padding: 0px;
+  background: linear-gradient(180deg, #fff 0%, #0A3871 58%);
+  
+}
+.container{
+  margin: auto;
+  width: 960px;
+  
+  height: 650px;
+  padding:  5px;
+  border-radius: 24px;
+  background: #F3F5FC;
+
+}
+
+
+.logo{
+  width: 100%;
+  float: left;
+  
+}
+
+.logoImg{
+  margin-top: 5%;
+  margin-left: 5%;
+  float: inherit;
+
+}
+
+.logoImg:hover{
+
+  transform: scale(1.5) rotate3d(0, 1, 0, 800deg);
+  transition: 3s;
+}
+
+.left{
+  float: left;
+  width: 70%;
+  height: 70%;
+  border-radius: 24px;
+
+}
+
+.text-input{
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 60%;
+  color: #0A3871;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #F3F5FC;
+  
+}
+
+text{
+  display: block;
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #0A3871;
+  font-size: 25px;
+}
+
+.admiracion{
+  float: left;
+  margin: 0 10px 10px 70px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  float: inherit;
+  font-size: 12px;
+   
+}
+
+.left-button{
+  float: inherit;
+  width: 70%;
+  height: auto;
+  border-radius: 24px;
+
+}
+
+#boton-encriptar{
+  padding: 24px;
+  width: 40%;
+  height: 60%;
+  color: #FFFFFF;
+  border-radius: 24px;
+  margin-left: 10%;
+  background: #0A3871;
+}
+
+#boton-encriptar:hover{
+  background-color: #133158;
+  transform: scale(1.1)
+}
+
+button {
+  border: 1px solid #0A3871;
+  cursor: pointer;
+  transition: 1s;
+  
+}
+
+#boton-desencriptar{
+  padding: 24px;
+  width: 40%;
+  height: 60%;
+  color: #0A3871;
+  
+  border-radius: 24px;
+  margin-left: 5%;
+  background: #D8DFE8;
+  
+}
+
+#boton-desencriptar:hover{
+  background-color: #c5cdd6;
+  transform: scale(1.1)
+  
+}
+
+/* Este es todo lado derecho de panel****/
+
+.right{
+  float: right;
+  width: 30%;
+  height: auto;
+  border-radius: 24px;
+  background: #FFFFFF;
+}
+
+#imgDer{
+  margin-left: 2%;
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+}
+#texto{
+  text-align: center;
+  font-weight: bold;
+  
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#texto2{
+  text-align: center;
+  float: left;
+  margin-left: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 60%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  resize: none;
+}
+
+textarea{
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 24px;
+}
+
+#copiar{
+  margin-left: 0%;
+  margin-top: 167%;
+  padding: 24px;
+  width: 100%;
+  height: 5%;
+  color: #0A3871;
+  background: #D8DFE8;
+  border-radius: 24px;
+  display: none;
+}
+
+#copiar:hover{
+  background-color: #c5cdd6;
+  transform: scale(1.1)
+}
+
+footer{
+  text-align: center;
+  
+  background: #0A3871;
+  padding: 40px;
+}
+
+.color-azul{
+  background: #FFFFFF;
+  color: #0A3871;
+}
+.normal {
+  font-family: 'Play', sans-serif;
+}
+
+.italic {
+  font-family: 'Fjalla One', sans-serif;
+  
+}
+.facebook{
+  width: 40px;
+  margin: 0 0 12px 0; 
+}
+
+.instagram{
+  width: 50px;
+  margin: 0 0 5px 0;
+  
+}
+
+.linkedin{
+  width: 70px;
+  margin: 5px 0 0 0;
+}
+
+.youtube{
+  width: 50px;
+  margin: 0 0 5px 0;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px;
+}
+
+@media screen and (max-width:480px){
+  
+
+  .container, .logo, .left{
+    width: auto;
+    text-align: center;
+    
+  }
+
+  .logo{
+    margin: 0 100% 0 0;
+  }
+
+  .left{
+    width: 100%;
+    margin: 0 0 0 0;
+    height: 40%;
+  
+  }
+  .text-input{
+    position: static;
+    margin: 0 100% 0 35px;
+  }
+  ::placeholder{
+    text-align: center;
+  }
+
+  .left-button{
+    width: 100%;
+  }
+  .admiracion{
+    margin: 0 10px 10px 0;
+  }
+  p{
+    margin:0 30% 15px 0;
+  }
+  #boton-encriptar{
+    width: 80%;
+    margin: 5px 0 0 0;
+  }
+  #boton-desencriptar{
+    width: 80%;
+    margin: 5px 0 0 0;
+  }
+  .right{
+    position: absolute;
+    width: 90%;
+    
+    margin: 130% 0 50% 0;
+    
+  }
+  #imgDer{
+    display: none;
+  }
+
+  #texto2{
+    height: 60px;
+  }
+  #copiar{
+    margin: 0 15px;
+  }
+}
+  
+
